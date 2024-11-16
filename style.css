@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    background-color: #77CDFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.bmi-container{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    background-color: #F95454;
+    max-width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 4px 8px 6px #0D92F4;
+    border-color: #0D92F4;
+}
+
+label{
+    display: block;
+    margin: 10px 10px 10px;
+    font-weight: bold;
+}
+button{
+    font-size:medium;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+
+.bmiForm{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#result{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
